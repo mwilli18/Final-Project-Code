@@ -124,9 +124,144 @@ public class UsersDB {
 			String sql = "insert into RESULTS (Dice_Type)" +
 						"values ('" D8 "');";
 			String sql = "insert into RESULTS (Dice_Type)" +
-						"values ('" D10
-						
+						"values ('" D10 "');";
+			String sql = "insert into RESULTS (Dice_Type)" +
+						"values ('" D12 "');";
+			String sql = "insert into RESULTS (Dice_Type)" +
+						"values ('" D20 "');";
+			String sql = "insert into RESULTS (Dice_Type)" +
+						"values ('" D100 "');";
+			stmt.executeUpdate(sql);
+			stmt.close();
 			
+			//Inserts DATA into the ROLL table.
+			stmt = c.createStatement();
+			String sql = "insert into ROLL (D4)" +
+						"values ('" 1 "');";
+			String sql = "insert into ROLL (D4)" +
+						"values ('" 2 "');";
+			String sql = "insert into ROLL (D4)" +
+						"values ('" 3 "');";
+			String sql = "insert into ROLL (D4)" +
+						"values ('" 4 "');";
+			stmt.executeUpdate(sql);
+			stmt.close();
+			
+			
+			stmt = c.createStatement();
+			String sql = "insert into ROLL (D6)" +
+						"values ('" 1 "');";
+			String sql = "insert into ROLL (D6)" +
+						"values ('" 2 "');";
+			String sql = "insert into ROLL (D6)" +
+						"values ('" 3 "');";
+			String sql = "insert into ROLL (D6)" +
+						"values ('" 4 "');";
+			String sql = "insert into ROLL (D6)" +
+						"values ('" 5 "');";
+			String sql = "insert into ROLL (D6)" +
+						"values ('" 6 "');";
+			stmt.execute.Update(sql);
+			stmt.close();
+			
+			
+			stmt = c.createStatement();
+			String sql = "insert into ROLL (D8)" +
+						"values ('" 1 "');";
+			String sql = "insert into ROLL (D8)" +
+						"values ('" 2 "');";
+			String sql = "insert into ROLL (D8)" +
+						"values ('" 3 "');";
+			String sql = "insert into ROLL (D8)" +
+						"values ('" 4 "');";
+			String sql = "insert into ROLL (D8)" +
+						"values ('" 5 "');";
+			String sql = "insert into ROLL (D8)" +
+						"values ('" 6 "');";
+			String sql = "insert into ROLL (D8)" +
+						"values ('" 7 "');";
+			String sql = "insert into ROLL (D8)" +
+						"values ('" 8 "');";
+			stmt.executeUpdate(sql);
+			stmt.close();
+			
+			
+			stmt = c.createStatement();
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 1 "');";
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 2 "');";
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 3 "');";
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 4 "');";
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 5 "');";
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 6 "');";
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 7 "');";
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 8 "');";
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 9 "');";
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 10 "');";
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 11 "');";
+			String sql = "insert into ROLL (D12)" +
+						"values ('" 12 "');";
+			stmt.executeUpdate(sql);
+			stmt.close();
+			
+			
+			stmt.c.createStatement();
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 1 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 2 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 3 "');";	
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 4 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 5 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 6 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 7 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 8 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 9 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 10 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 11 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 12 "');";	
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 13 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 14 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 15 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 16 "');";	
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 17 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 18 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 19 "');";
+			String sql = "insert into ROLL (D20)" +
+						"values ('" 20 "');";	
+			stmt.executeUpdate(sql);
+			stmt.close();
+			
+			
+			// Add data for D100 here.
+						
 			
 			
 		} catch ( Exception e ) {
